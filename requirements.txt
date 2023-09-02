@@ -1,0 +1,11 @@
+datasets
+huggingface-hub
+git+https://github.com/huggingface/diffusers
+accelerate
+git+https://github.com/huggingface/transformers
+torch>=1.4
+scipy
+ftfy
+accelerate
+pyngrok==4.1.1
+flask_ngrok
