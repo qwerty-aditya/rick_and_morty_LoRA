@@ -18,3 +18,5 @@
 
 1. Run all the cells in the Notebook, this will install the requirements and deploy the web app, finally grok will make the Web App available to the internet.
 2. Please click the ngrok-free.app link in the output of the last cell to launch the Web App.
+
+![Screenshot of Web App](rick_and_morty_LoRA/Screenshot 2023-09-02 at 7.10.58 PM.png)
