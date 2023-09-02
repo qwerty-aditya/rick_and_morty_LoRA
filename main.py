@@ -26,7 +26,7 @@ def generate_image():
   prompt = request.form['prompt-input']
   print(f"Generating an image of {prompt}")
 
-  image = pipe("man on an aeroplane", num_inference_steps=50, guidance_scale=7.5, cross_attention_kwargs={"scale": 1}).images[0]
+  image = pipe(prompt, num_inference_steps=50, guidance_scale=7.5, cross_attention_kwargs={"scale": 1}).images[0]
   print("Image generated! Converting image ...")
   
   buffered = BytesIO()
