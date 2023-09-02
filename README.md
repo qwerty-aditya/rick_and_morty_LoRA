@@ -3,7 +3,7 @@
 ### Training Process:
 1. Fine Tuning the Stable diffusion model with the LoRA method is very fast and efficient.
 2. The train_text_to_image_lora library provided by Huggingface was used for the fine-tuning purposes.
-3. Created a Rick and Morty Dataset of 40 images: LINK
+3. Created a Rick and Morty Dataset of 40 images: [DATASET LINK](https://huggingface.co/datasets/qwertyaditya/rick_and_morty_image_and_text)
 4. Some of the important Hyperparameters used during the fine-tuning were:
    1. Learning Rate = 1e-04
    1. Training steps = 2000
